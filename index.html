@@ -1,9 +1,961 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>This is the title of the webpage!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Eating Clubs</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/gkx8zdh.css">
   </head>
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+<div class="street" data-aos="fade-in" data-aos-duration="1000" style="z-index:0;">
+    <svg id="background-street" data-aos="fade" data-aos-duration="1000" data-aos-anchor="#trigger-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 411.3"><defs><style>.a,.b{fill:#fff;}.a,.c{stroke:#282828;stroke-miterlimit:10;}.c{fill:none;}</style></defs><polygon id="terrace" class="a" points="75.23 360.38 77.43 374.21 80.4 373.74 85.11 403.37 100.91 400.85 101.7 405.79 108.57 410.77 120.42 408.89 129.55 396.3 126.88 379.51 147.62 376.21 142.75 345.59 147.69 344.81 142.81 314.19 110.22 319.38 112.11 331.23 96.31 333.74 94.42 321.89 71.71 325.5 77.21 360.07 75.23 360.38"/><polygon id="tower" class="a" points="133.5 192.5 133.5 228.5 157.5 228.5 157.5 246.5 203.5 246.5 203.5 222.5 214.5 222.5 214.5 202.5 202.5 202.5 202.5 181.5 177.5 181.5 177.5 188.5 162.5 188.5 162.5 192.5 133.5 192.5"/><path id="quad" class="a" d="M524.69,339.35v36h4v10h10s3,5,19,5,19-4,19-4h13v-11h3v-9h13v-19h-15v-8Z" transform="translate(-99.19 -139.85)"/><polygon id="ivy" class="a" points="539.5 217.5 539.5 279.5 569.5 279.5 569.5 254.5 604.5 254.5 604.5 279.5 609.5 279.5 609.5 301.5 628.5 301.5 628.5 202.5 604.5 202.5 604.5 207.5 582.5 207.5 582.5 202.5 558.5 202.5 558.5 217.5 539.5 217.5"/><path id="cottage" class="b" d="M852.69,364.35h-4v-20h-20v4h-40v-4h-19v18h-7l-7,3v14l7,5h7v40h19v-5h40v5h20v-40h3l4.5-4.5v-12.5Zm-24,43h-40v-29h40Z" transform="translate(-99.19 -139.85)"/><path class="c" d="M852.69,364.35h-4v-20h-20v4h-40v-4h-19v18h-7l-7,3v14l7,5h7v40h19v-5h40v5h20v-40h3l4.5-4.5v-12.5Zm-24,43h-40v-29h40Z" transform="translate(-99.19 -139.85)"/><polygon id="cap" class="a" points="851.5 290.5 789.5 290.5 789.5 235.5 814.5 235.5 814.5 254.5 842.5 254.5 842.5 248.5 858.5 248.5 858.5 254.5 862.5 254.5 862.5 237.5 884.5 237.5 884.5 257.5 890.5 257.5 890.5 285.5 882.5 285.5 882.5 336.5 851.5 336.5 851.5 290.5"/><polygon id="cloister" class="a" points="958.5 195.5 958.5 234.5 1000.5 234.5 1000.5 254.5 1023.5 254.5 1023.5 195.5 1015.5 195.5 1015.5 186.5 991.5 186.5 991.5 195.5 958.5 195.5"/><polygon id="charter" class="a" points="1082.5 204.5 1082.5 271.5 1117.5 271.5 1117.5 241.5 1144.5 241.5 1144.5 248.5 1166.5 248.5 1166.5 204.5 1144.5 204.5 1144.5 211.5 1105.5 211.5 1105.5 204.5 1082.5 204.5"/><polygon id="ti" class="a" points="617.5 18.5 617.5 68.5 628.5 68.5 628.5 87.5 637.5 87.5 637.5 107.5 702.5 107.5 702.5 18.5 617.5 18.5"/><polygon id="colonial" class="a" points="487.5 51.5 487.5 87.5 516.5 87.5 516.5 102.5 546.5 102.5 546.5 87.5 573.5 87.5 573.5 51.5 546.5 51.5 546.5 38.5 516.5 38.5 516.5 51.5 487.5 51.5"/><polygon id="campus" class="a" points="0.5 186.5 25.5 186.5 25.5 183.5 40.5 183.5 40.5 192.5 65.5 192.5 65.5 198.5 84.5 198.5 84.5 229.5 0.5 229.5 0.5 215.5 4.5 215.5 4.5 210.5 0.5 210.5 0.5 186.5"/><polygon id="dial" class="a" points="319.5 17.5 319.5 58.5 416.5 58.5 416.5 0.5 388.5 0.5 388.5 17.5 319.5 17.5"/></svg>
+    </div>
+
+    <div id="header">
+      <a href="https://www.dailyprincetonian.com/">
+    <img id="header-logo" src="prince_logo_inline.png"></a>
+    </div>
+    <figure>
+    <img id="title-image" src="TI.png">
+    </figure>
+
+    
+    <div id="title-page">
+      <h3 id="overline"> Retrospective </h3>
+      <h1 id="title"> How the Eating Clubs Went Coed </h1>
+      <h2 class="subtitle"> Thirty years since the New Jersey Supreme Court ruled against Princeton’s last all-male eating clubs, The Daily Princetonian takes a retrospective look at the fight that won women full access to Prospect Avenue. </h2>
+
+      <h2 class="subtitle" style="padding-top: 10px; padding-bottom: 10px;">Editor's Note: This piece recounts events that some readers may find distressing.</h2>
+      
+      <p id="byline" class="desktop" style="font-weight:600"> By Evelyn Doskoch and Alex Gjaja | July 13th, 2020<br><span style="color:rgb(100,100,100); font-weight: 200; font-size: 15px">Web Design by Kenny Peng, Cover Illustration by Harsimran Makkad</span> </p>
+      <p id="byline" class="mobile" style="font-weight:600"> By Evelyn Doskoch and Alex Gjaja<br>July 13th, 2020<br><span style="color:rgb(100,100,100); font-weight: 200; font-size: 15px">Web Design by Kenny Peng<br>Cover Illustration by Harsimran Makkad</span> </p>
+    </div>
+
+    <p class="desktop" style="position: absolute; top: 130vh;text-align:right">Cover Illustration by Harsimran Makkad / The Daily Princetonian</p>
+    <div style="background:white; position:relative; z-index: 1">
+      
+      <!-- data-aos="fade-in" data-aos-duration="1500" -->
+    <div class="item" style="position: relative; z-index:100">
+      <div class="first-par">
+      <p>
+In the autumn of 1977, a Princeton sophomore walked into the Dean of Student Affairs office to request a bicker questionnaire. Following the typical registration process, the student filled out a form, answering questions with a well-worn pen. 
+</p>
+<p>
+<br>
+Name: S.B. Frank.
+<br>
+Gender: Male.
+</p>
+<p>
+Like many male sophomores, the student left the office with an appointment at all five selective eating clubs: Cap & Gown Club, Cottage Club, Tiger Inn (TI), Tower Club, and Ivy Club. Unlike the male sophomores, however, S.B. Frank’s initials did not stand for a name like Samuel or Steven.
+</p>
+<p>
+S.B. Frank was Sally B. Frank ’80. And, having intentionally checked male instead of female, she had secured bicker appointments at five clubs — three more than she should have.
+</p>
+<p>
+When, a few days later, she began her walk down Prospect Avenue, Frank did not simply fulfill her bicker appointments. She posed a challenge to the bedrock of Princeton’s social hierarchy. Nearly a decade prior, when confronted with the reality of a coeducational campus, three eating clubs broke from the rest and made the controversial choice to exclude women.
+</p>
+<p>
+The seeds for Frank’s dissent had been planted in 1969, when the University <a href="https://www.dailyprincetonian.com/article/2018/05/one-year-of-committees-nearly-50-years-of-women">admitted</a> its first class of female undergraduates.
+</p>
+
+<div data-aos="fade-in" data-aos-id="trigger-3" id="trigger-3" style="height: 20vh"></div>
+      </div>
+    </div>
+    <!-- <h1 style="padding:0px; margin:0px; color:black; font-size:100px; line-height:100px; position: relative; z-index:100">Prospect Ave.</h1> -->
+    </div>
+    <div style="margin-top: 0px; background:rgb(40,40,40); height: 100vh; padding-bottom: 0px; margin-bottom: 0px;">
+    </div>
+    <div style="background:rgb(40,40,40); padding-bottom:0px">
+    </div>
+    
+    <div style="background:rgb(40,40,40)">
+    <div class="large-caption" data-aos="fade-out" data-aos-id="caption-1969" data-aos-duration="1500" style="opacity: 0.85">
+      <h3> 1969: U. Goes Coed</h3> 
+      <p> When these female students stepped on campus for the first time in fall 1969, several eating clubs immediately warmed to coeducation. Campus Club and Terrace Club (which both had non-undergraduate female members) continued their coed policies, and members of Colonial and Charter Clubs voted to accept women. </p>
+    </div>
+
+    <div style="height: 110vh"></div>
+    <div class="large-caption" data-aos="fade-out" data-aos-id="caption-1970" data-aos-duration="1500" style="opacity: 0.85">
+      <h3> 1970: Five More Clubs Welcome Women </h3> 
+      <p> Shortly thereafter, Cloister Inn, Dial Lodge, Tower, Quadrangle Club, and Cap & Gown voted to accept women. </p>
+    </div>
+
+    <div style="height: 90vh"></div>
+    <div class="large-caption-right" data-aos="fade-out" data-aos-id="caption-1971" data-aos-duration="1500" style="opacity: 0.85">
+      <h3> 1971: The Final Three </h3> 
+      <p> By fall bicker, only three all-male clubs remained: Cottage, Ivy, and TI. </p>
+    </div>
+
+    <div style="height: 40vh"></div>
+    <div data-aos="fade-out" data-aos-id="end-graphic" style="height: 20vh"></div>
+    <div class="item">
+      <div>
+        <p>
+With coeducation, gender equality on campus seemed to many a foregone conclusion. But three male-only clubs showed no sign of bowing to progress.
+</p>
+<p>
+Cottage, Ivy, and TI owed their exclusive, male-only status to the practice of bicker. Unlike sign-in clubs, which students could join without any vetting, bicker clubs decided who to admit through a lengthy interview process. A hallmark of the Princeton social scene <a href="https://mysideofparadiseblog.wordpress.com/2018/03/11/bicker/">since 1914</a>, bicker allowed some clubs to keep women out, even as the University strived to place them on equal footing.
+</p>
+<p>
+At Ivy, members blocked a proposed alteration to a constitutional clause that banned women. At TI, a minority of members could exclude a student from bicker for any reason — meaning that so long as just a few opposed coeducation, women could not bicker.
+</p>
+<p>
+But as the years passed, women on campus were no longer a tiny fraction of the student body, and increasingly a force with which the clubs had to contend. A group that began as just 10 percent of all undergraduates had <a href="https://books.google.com/books?id=tKw0DwAAQBAJ&pg=PA151&lpg=PA151&dq=percentage+of+female+undergraduates+princeton+1976&source=bl&ots=gS91NfluYf&sig=ACfU3U3Keiyvxba8eLyrZZeNjNi2dE6MwQ&hl=en&sa=X&ved=2ahUKEwjgtZuXusjqAhVXQ80KHWDyDsUQ6AEwAHoECA4QAQ#v=onepage&q=percentage%20of%20female%20undergraduates%20princeton%201976&f=false">climbed</a> to over 35 percent by 1979.
+</p>
+<p>
+Still, at Cottage, Ivy, and TI, little had changed. It would take a decade of legal battles, scores of campus activists, and countless attacks on Frank’s integrity before her dream of gender equality on the Street could be realized.
+</p>
+      </div>
+    </div>
+    <div style="height: 40vh"></div>
+    <div style="height: 10vh; margin-top:0px"></div>
+    <h1 class="desktop" style="padding:0px; margin:0px; color:white; font-size:100px; line-height:100px">§1&ensp;S.B. Frank</h1>
+    <h1 class="mobile" style="padding:0px; margin:0px; color:white; font-size:90px; line-height:90px">§1<br>S.B. Frank</h1>
+    </div>
+
+    <div class="item">
+    <div class="first-par" style="z-index:999">
+    <p>
+When Sally Frank walked out of the Dean of Student Affairs office her sophomore year, she had secured bicker appointments at TI, Cottage and Ivy. In so doing, she challenged the century-old, all-male status quo manifested in the eating clubs.
+</p>
+<p>
+Ivy Club, famously described in Fitzgerald’s “This Side of Paradise” as “detached and breathlessly aristocratic,” was the University’s first eating club, dating back to 1879 and known for its wealthy and influential members. Cottage Club was founded five years later, in 1884, and over time grew popular among Southern students. Fitzgerald wrote that Tiger Inn, founded in 1890, contained “broad-shouldered and athletic” types.
+</p>
+<p>
+While Frank was allowed to attend her bicker appointments at the three all-male clubs, the members, who had no intention of handing bids to women, largely ignored her and two other women bickering. At the time, Cottage president John K. Herbert ’78 <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19780206-01.2.4&srpos=6&e=------197-en-20--1--txt-txIN-Sally+frank----1978--">told</a> The Daily Princetonian that women were “not legitimate candidates.”
+</p>
+<p>
+The president of Tiger Inn, J. Gary Moffat ’78, agreed. “They were not offered a bid because they were registered illegally for Bicker,” he said.
+</p>
+<p>
+“There was this concept that you can’t just generally associate with women as friends or hang out, that you have to be different when women were around,” Frank explained in an interview with the ‘Prince.’ “Tiger Inn members would say to me, ‘Well, we’d have to dress up for breakfast.’”
+</p>
+<p>
+In Ivy, if a woman walked in while members were having a meal, all of them would rise.
+</p>
+<p>
+“It was a chivalrous thing that they thought was polite, but the woman is feeling very awkward,” Frank said. “It’s not a feeling of equality.”
+</p>
+<p>
+Although the clubs’ discrimination incensed her, Frank understood that the private institutions were beyond her reach as an activist — that is, until a summer job at the ACLU of New Jersey changed her mind.
+</p>
+<p>
+As Frank describes it now, she was complaining to the executive director about how “awful” the all-male clubs were.
+</p>
+<p>
+“Well, why don’t you sue?” he asked.
+</p>
+<p>
+Frank: “They’re private.”
+</p>
+<p>
+“No. They’re public accommodations.”
+</p>
+<p>
+That was all it took. “Okay,” she replied.
+</p>
+<p>
+As she recounted that moment, Frank paused and chuckled: “Little did I know it would take years of litigation to establish that point.”
+</p>
+<p>
+Returning her junior year with the intention to sue, Frank again registered for bicker. It would be better for her lawsuit, she thought, if she demonstrated repeated attempts to join the all-male clubs. This time, she put her name down as S.B. Frank, but checked neither male nor female.
+</p>
+<p>
+Familiar with this “S.B. Frank,” Cottage and TI refused to grant Frank an appointment. 
+</p>
+<figure class="img-normal">
+<img src="sallyfrank.png" style="width:100%">
+<figcaption> Sally Frank in the Daily Princetonian, April 9th, 1979
+</figure>
+<p>
+"We can't ask members of this club to spend time with a female who can't enter," Cottage President Donald R. Seitz ’79 <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19790205-01.2.4&srpos=17&e=------197-en-20--1--txt-txIN-sally+frank----1979--">said</a> in a February 1979 issue of The Daily Princetonian.
+</p>
+<p>
+President Howard S. Lewis ’79 of Tiger Inn felt that Frank bickering his club would “disrupt the process.”
+</p>
+<p>
+Ivy let her come for an interview, but spoke with her only after all the male candidates had bickered. President William C. Ford Jr. ’79 explained in February 1979 that the members wanted to “let her see what the whole process is about.”
+</p>
+<p>
+Still, he admitted that Frank had little chance of getting a bid.
+</p>
+<p>
+Denied for two years in a row, Frank was now ready to file her lawsuit. 
+</p>
+<p>
+“I think I didn’t appreciate this back then,” said Vicky Benedict ’91, one of Ivy’s first female members, “because to bring her suit she had to actually, physically show up, ask to bicker and get rejected. You know, as an adult and as a mom of someone, I mean that’s a humiliating experience.”
+</p>
+<p>
+On February 20, 1979, future Supreme Court Justice Elena Kagan ’81 reported in the ‘Prince’ that Frank had <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19790221-01.2.3&srpos=7&e=------197-en-20--1--txt-txIN-sally+frank----1979--">filed</a> a lawsuit with the New Jersey Division on Civil Rights.
+</p>
+<p>
+In the suit, Frank named the University and the three all-male eating clubs, all of which insisted that the clubs were exempt from the antidiscrimination law she cited.
+</p>
+<p>
+“We’re independent of the University,” Cottage president Seitz argued. “We’re not breaking any law and we’re not imposing on her rights any more than she is on ours.”
+</p>
+<p>
+In June, the N.J. Division on Civil Rights <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19790912-01.2.8&srpos=5&e=------197-en-20--1--txt-txIN-sally+frank----1979--">ruled</a> that the clubs were “essentially private,” in what would be the first loss of many for Frank.
+</p>
+<p>
+On October 4, Frank brought the fight to a new arena, lodging a <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19791108-02.2.11&srpos=18&e=------197-en-20--1--txt-txIN-Sally+Frank-ARTICLE---1979--">complaint</a> with what is now the U.S. Department of Health and Human Services. She asserted that under Title IX of the Higher Education Act of 1972, the clubs’ refusal to admit women constituted discrimination on the basis of sex.
+</p>
+<p>
+By providing security and maintenance for the clubs, she <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19791011-01.2.22&srpos=2&e=------197-en-20--1--txt-txIN-sally+frank----1979--">alleged</a>, the University endorsed a discriminatory policy — it was complicit in the clubs’ misdeeds.
+</p>
+<p>
+In November, the department began its investigation, only to <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19800430-01.2.2&srpos=18&e=-------en-20-Princetonian-1-byDA-txt-txIN-NJ+Division+of+Civil+Rights------">dismiss</a> the case in April of 1980. But all was not lost. Four months earlier, in January 1980, the N.J. Division on Civil Rights had <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19800109-01.2.9&srpos=12&e=-------en-20-Princetonian-1-byDA-txt-txIN-NJ+Division+of+Civil+Rights------">agreed</a> to re-hear the case.
+</p>
+<p>
+As the lawsuit survived its first tumultuous year, Frank was in the midst of an entirely different fight — the struggle to endure her final years as an undergraduate.
+</p>
+    </div>
+    </div>
+    <div class="section-break"><h1>*</h1></div>
+    <div class="item">
+      <p>
+In November of her junior year, before her second attempt at bickering, Frank went to a party at Cottage for students planning to bicker. She expected disagreement from her peers; she hadn’t anticipated harassment or physical assault. 
+</p>
+<p>
+“I thought, ‘Oh well, we’ll argue,’” she told the ‘Prince.’ “I had beer poured on me. And people were chanting that they’d throw me in the fountain. I was very freaked out.”
+</p>
+<p>
+Frank alleges that after she filed the lawsuit, a group of primarily Cottage members harassed her for the rest of the semester. She frequently <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19790409-01.2.5&srpos=2&e=-------en-20--1--txt-txIN-playboy+sally+frank------">received</a> obscene phone calls. Residents of 1937 Hall hung a picture outside their room of a nude Playboy model, with Frank’s face glued on top.   
+</p>
+<p>
+Even after Frank’s graduation, her name was derided. Benedict, who arrived on campus seven years after Frank had left, said, “She was very vilified, in a very ugly and personal way.”
+</p>
+<p>
+“It probably felt very lonely,” said Jen Weiner ’91, the founder of the Coalition for Coeducated Eating Clubs and a well-known novelist. “I think that she was an outlier.”
+</p>
+
+<p class="pull-quote"><span class="highlight-line">______</span><br>As she recounted that moment, Frank paused and chuckled: “Little did I know it would take years of litigation to establish that point.”</p>
+
+<p>
+On the legal front, too, Frank was forced to contend with misogynist attitudes. Despite plentiful female representation among the legal teams — including one of Ivy Club’s attorneys — Frank remembers clear displays of sexism during ordinary administrative meetings.
+</p>
+<p>
+“Tiger [Inn]’s lawyer seemed to revel in his sexism,” she told the ‘Prince.’ “At the settlement conference in front of the judge, he had a jacket on — but he took his jacket off when he was talking with the lawyers, and he had suspenders that were Playboy bunnies.”
+</p>
+<p>
+Even the man’s choice of language in the legal setting demeaned Frank.
+</p>
+<p>
+“He'd call everybody by last name, but me by first name. …That was particularly annoying. It's one thing if you're calling people by first name or calling people by last name, but when you call only me by first name, then that's wrong.”
+</p>
+<p>
+Frank graduated from the University in 1980 with her lawsuit still unresolved. She would go on to attend New York University School of Law, where serving as her own co-counsel in the ongoing suit would give her invaluable practical experience with the law.
+</p>
+<p>
+As Frank’s relationship with the eating clubs now centered only on administrative and legal questions, the responsibility to continue feminist activism on campus fell on the women who came after her. Throughout the next decade, Frank’s fight for equality raged on, well after her departure from the Orange Bubble.
+</p>
+    </div>
+
+
+
+    <div class="item">
+      <h1> Campus Culture: “Better Dead than Coed” </h1>
+      <p>
+In 1985, sophomores Katharine Greider ’88 and Kathryn Hayward ’88 took up Frank’s mantle. As part of a group of roughly 40 organizers and activists, they circulated a <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19851121-01.2.5&srpos=1&e=-------en-20--1--txt-txIN-Coed+Petition+Garners+300+Names%2c+Students+Urge+Women+To+Bicker------">petition</a>, co-written by Greider, that called for the all-male eating clubs to accept women.
+</p>
+<p>
+“Women will not be fully accepted into coeducational life at Princeton until all the eating clubs are coeducational,” the petition read.
+</p>
+<p>
+Organizers advertised the petition liberally, circulating copies at Firestone Library and the Student Center, and posting copies in departmental offices to gain faculty support. They tracked down alumni mailing lists and drew upon the resources of the Women’s Center, <a href="http://women.princeton.edu/who-we-are">established</a> in 1971, to legitimize the petition.
+</p>
+<p>
+The group planned to present the collected signatures to the presidents of the all-male clubs and University President William G. Bowen GS ’58 in advance of the February bicker sessions. Their goal? “To demonstrate that many people disagree with those clubs' practice of barring women from membership.”
+</p>
+<p>
+But in addition to protesting the all-male clubs, the petition served as a rallying cry to sophomore women, who organizers urged to bicker. Both Hayward and Greider promised to bicker at least one of the three male-only clubs in February, and emphasized that additional female bickerees would help their long-term cause.
+</p>
+<p>
+“They were — in terms of the movement on campus, the feminist push to say this is not okay, and this should change — they were really the leaders,” Lydia Denworth ’88, also a sophomore at the time, told the ‘Prince.’
+</p>
+<figure class="img-normal">
+    <img style="width: 100%"" src="coed_img0_mobile.png">
+<figcaption>The Daily Princetonian, November 21st, 1985</figcaption>
+</figure>
+<p>
+Their advocacy met fervent opposition — brewing a volatile climate at the clubs, where a woman venturing onto Prospect Avenue might be met with a warm welcome or a shocking display of sexism, depending on the club she chose to enter.
+</p>
+<p>
+“I remember very distinctly going on a date to Ivy with a guy,” Denworth told the ‘Prince.’ “I think this must have been freshman year. And there was a signup sheet by the door for ‘<em>Better Dead than Coed</em>’ T-shirts.”
+</p>
+<p>
+Denworth describes the confrontation that followed: “I just sort of stopped and looked at it. And I said to [my date], ‘really, you’d rather be dead than have me be in your club?’ And he was like, ‘Oh, you know… it’s just a thing.’ But I felt it really viscerally.”
+</p>
+<p>
+In a 1985 <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19851205-01.2.16&srpos=9&e=-------en-20--1--txt-txIN-male+eating+clubs+letters------">letter</a> published in the ‘Prince,’ Michael Kaneb ’87 expressed support for his club, Cottage, and for the system of all-male eating clubs.
+</p>
+<p>
+“I am not going to argue the legality of the question; Ms. Frank certainly demonstrated her mastery in that area,” he wrote. “Seven years of an obsession tends to produce that sort of effect. If the law insists that clubs must admit women, I think the law is wrong and harmful.”
+</p>
+<p>
+“I am, by Ms. Frank’s definition, a sexist,” he remarked.
+</p>
+<p>
+“I don't find any inferiority or superiority, just differences,” Kaneb explained. “In admitting the value of these differences, then, it follows that I believe all-male and all-female clubs can be worthwhile, in that they cultivate and reinforce these essentially masculine or essentially feminine qualities.”
+</p>
+<p>
+Asked now to comment on his letter — 35 years after it was penned — Kaneb wrote to the ‘Prince’ his letter was “totally uninformed, totally wrong, and totally thoughtless.”
+</p>
+<p>
+“Even at 20 years old and with a decent education, some people really do not know what they are talking about and should not be listened to,” he added.
+</p>
+</div>
+
+    <div class="section-break"><h1>*</h1></div>
+    
+    <div class="item">
+      <p>
+While Kaneb litigated his case in the pages of the ‘Prince,’ Frank was busy in court. Although the N.J. Division on Civil Rights’s 1980 decision to re-hear the case seemed like a victory, Frank learned in January 1982 that the Division had dismissed the case a second time. She appealed to the New Jersey Superior Court, which <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19830908-01.2.6&srpos=4&e=------198-en-20--1--txt-txIN-New+Jersey+Division+of+Civil+Rights----1983--">ruled</a> in her favor, mandating that the Division reconsider the case. In May 1985, the Division <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19850515-01.2.5&srpos=8&e=------198-en-20--1--txt-txIN-%22New+Jersey+division+on+civil+rights%22----1985--">reversed</a> its 1982 decision, ruling in Frank’s favor.
+</p>
+<p>
+“Sometimes it was like, ‘Okay, bring out the champagne’ and sometimes it was like, ‘Ah!’” Frank said.
+</p>
+<p>
+1985 saw the biggest victory to date for Frank, Greider, Hayward and their allies. In December, the Cottage Club graduate board <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860203-01.2.2&e=-------en-20-Princetonian-1--txt-txIN-bicker+T.I+1991------">voted</a> to admit women, and Cottage <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860110-01.2.2&srpos=70&e=------198-en-20-Princetonian-61-byDA-txt-txIN-sally+frank+case-ARTICLE-----">announced</a> that the next month’s bicker would be coed.
+</p>
+<p>
+For the first time, Frank felt she had achieved real change.
+</p>
+
+<figure class="img-normal-mobile">
+    <img style="width: 100%" src="coed_img1_mobile.png">
+    </figure>
+
+    </div>
+    
+    <figure style="margin-bottom: 0px; padding-bottom: 0px;">
+    <img class="full-width-img" style="opacity: 0.8;" src="coed_img1.png">
+    </figure>
+
+
+    <div style="background: rgb(220,190,180); opacity:1; padding-top: 200px; margin-top: -7px;">
+    <h1 class="desktop" style="padding:0px; margin:0px; color:white; font-size:100px; line-height:100px">§2&ensp;Taking Back ‘The Street’</h1>
+    <h1 class="mobile" style="padding:0px; margin:0px; color:white; font-size:90px; line-height:90px">§2<br>Taking<br>Back<br>‘The <br>Street’</h1>
+    </div>
+
+  
+    <div class="item">
+      <div class="first-par">
+<p>
+Bicker Sunday. February 2, 1986.
+</p>
+<p>
+At 1:00 p.m., approximately 70 sophomore women stepped foot into Cottage.
+</p>
+<p>
+At Ivy, four women entered the club but weren’t granted interviews. At TI, at least two women — Greider and Hayward — <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860203-01.2.2&srpos=13&e=------198-en-20-Princetonian-1--txt-txIN-first+bicker+cottage+women-ARTICLE-----">tried</a> to enter and weren’t let in the door.
+</p>
+<p>
+“TI and Ivy ignored us,” said Dina Brewer ’88, one of the first female Cottage members, in an interview with the ‘Prince.’ “I remember going into Ivy and sitting in the bathroom with a couple of my girlfriends, and the guys were using the girls' bathroom to bicker people because there weren't supposed to be any women there!”
+</p>
+<p>
+But at Cottage, things were different. There was a buzz in the air. A feeling of possibility.
+</p>
+<p>
+As Michelle Mendez ’88 <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860204-01.2.2&srpos=8&e=------198-en-20-Princetonian-1--txt-txIN-first+bicker+cottage+women-ARTICLE-----">recounted</a> in the ‘Prince’ later that week, “This was the first time that 100-year-old Cottage had let women bicker — I was making history.”
+</p>
+<p>
+“I certainly wondered whether they would accept any of us,” Denworth said. “But I felt like it was a continuation of the work.”
+</p>
+<p>
+Women described that year’s bicker process positively, reporting little animosity.
+</p>
+<p>
+“To my surprise, bicker was actually fun, although I got bored of saying what college I was in and where I was from,” Mendez said in the same article. “I was bickered from the bar to the balcony, and talked about everything from quail hunting and Eddie Murphy to the space shuttle explosion.”
+</p>
+<p>
+One bickeree <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860203-01.2.2&srpos=13&e=------198-en-20-Princetonian-1--txt-txIN-first+bicker+cottage+women-ARTICLE-----">spoke</a> to the ‘Prince’ anonymously. “It was a lot more relaxed than I expected it to be. The problem of it being coed really didn't surface,” she said.
+</p>
+<p>
+“The girl issue isn't that big of a deal for me,” <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860203-01.2.2&srpos=13&e=------198-en-20-Princetonian-1--txt-txIN-first+bicker+cottage+women-ARTICLE-----">said</a> Cottage member Chip Nuzzo ’87. “I think my friends judge people one on one. I’m glad I’m around people who are open-minded enough not to discriminate. I couldn’t live with myself if I did that.”
+</p>
+<p>
+The club admitted 27 women from the class of 1988. Greider and Hayward weren’t among them.
+</p>
+<p>
+Greider told the ‘Prince’ in a 1986 <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860203-01.2.2&srpos=13&e=------198-en-20-Princetonian-1--txt-txIN-first+bicker+cottage+women-ARTICLE-----">article</a> that she assumed she would be bickered just like anyone else but suspected that her “outspoken opposition to the all-male tradition” placed a target on her back.
+</p>
+<p>
+“That's what I thought,” Denworth agreed, looking back recently in an interview with the ‘Prince.’ “I can't say that I know that, [but] I'm pretty sure that's what everybody else assumed as well.”
+</p>
+<p>
+New female members notwithstanding, the debate around coeducation persisted among Cottage members and alumni.
+</p>
+
+<p>
+The next year, anti-coeducation alumni staged a “hostile takeover” of Cottage, according to Denworth. The alumni elected themselves as the new graduate board and nullified the previous board, which had inaugurated coeducation.
+</p>
+<p>
+“There were three ‘no’s,” Denworth said. “It was me and my [future] husband and the other officer voting that they should <em>not</em> be able to take over and establish their own graduate board and then kick out the women ... They had stacked the room full of people who think this way. But it was meaningless because in fact, they didn't have the power to do that.”
+</p>
+<p>
+Though the coup ultimately failed, it revealed a divide between the older, more accepting graduate board and the younger alumni, set on maintaining the traditions they’d enjoyed just a few years prior. The Cottage graduate board <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860110-01.2.2&srpos=33&e=------198-en-20-Princetonian-21-byDA-txt-txIN-cottage+club+to+admit+women-ARTICLE-----">polled</a> alumni members about the issue, and found that from 700 responses, 67 percent of respondents who had graduated before 1970 favored going coed, while 60 percent of alumni who graduated after 1970 favored being all-male.
+</p>
+<p>
+Denworth’s everyday experiences in the club were “really a mixed bag,” she recalled.
+</p>
+<p>
+“There were these guys that you would think were your friends, and then you would discover that they had what I thought of as — well, they had very sexist views a lot of the time,” she said.
+</p>
+<p>
+Denworth explained that male members did “a lot of little things,” which she said would now be considered microaggressions.
+</p>
+<p>
+“It felt like a bit of a battle the whole way through to [defend] your claim to be there,” she explained. “There was an antipathy on the part of not everybody, obviously, but on the part of some people the whole way through, or certainly in that first year.”
+</p>
+<p>
+For other women, like Brewer, everyday interactions helped her feel more at home in the club.
+</p>
+<p>
+“I learned to play pool at Cottage,” she said. “That’s how I got to know the guys.”
+</p>
+<figure class="img-normal">
+  <img src="cottage_table.png" style="width:100%">
+  <figcaption>The Daily Princetonian, January 10th, 1986</figcaption>
+  </figure>
+<p>
+Sitting in the next available seat at meals alleviated much of the isolation she might have otherwise faced.
+</p>
+<p>
+“I think it would have been much harder if they didn’t have that policy … I might not have felt comfortable just imposing myself as one woman and 15 guys at a table,” she said. “But because you had to sit at the next available seat and then the person who came in after you had to sit, I think that was actually a really good policy.”
+</p>
+<p>
+Many of the women had joined, in Brewer’s words, “because it was the right thing for Princeton.” But ultimately, they were also looking for a positive college experience.
+</p>
+<p>
+“Of course we were excited when we got in,” Denworth added. “It felt like a big victory, but also, you know — we thought it was going to be fun.”
+</p>
+
+    </div>
+    </div>
+
+    <div class="item">
+      <h1> Formal Ties, Symbolic Moments </h1>
+      <p>
+Meanwhile, Frank’s legal odyssey was far from over.
+</p>
+<p>
+On February 13, 1986, a new challenge emerged when Ivy and TI <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860222-01.2.2&srpos=20&e=------198-en-20--1--txt-txIN-Ivy+coed------">filed</a> separate countersuits in the U.S. District Court in Trenton. They sought to overturn the May 1985 decision by the N.J. Division on Civil Rights, which had ruled against the clubs’ claim to being private, and appeal to the state appellate court.
+</p>
+<p>
+Frank’s lawsuit screeched to a halt. The countersuits <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19860221-01.2.3&srpos=37&e=------198-en-20--21--txt-txIN-Ivy+coed------">postponed</a> a hearing by administrative law judge Robert Miller, who was set to rule on whether the clubs had discriminated against Frank. Had he ruled in Franks’ favor, the remedy likely would have included an order that the clubs admit women. By disputing that “distinctly private” clubs fell under state jurisdiction, Ivy, TI, and their lawyers hoped to stave off this order, at least for a few years.
+</p>
+<p>
+They need not have worried. Almost a year later, Miller <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19870202-01.2.6&srpos=63&e=------198-en-20--61--txt-txIN-Ivy+coed------">issued</a> a non-binding recommendation back to the N.J. Division on Civil Rights. He sided largely with the eating clubs, finding that TI and Ivy could sever any formal ties with the University, rather than admit women.
+</p>
+<p>
+“Formal ties” included programs such as Meal Exchange and the sidewalk shoveling provided by the University. It seemed the clubs had an easy way out of coeducation.
+</p>
+<p>
+Yet, in September 1986 — a few months before Miller’s decision — Frank <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=WeeklyBulletin19860914-01.2.6&srpos=27&e=------198-en-20--21--txt-txIN-Sally+Frank----1986--">settled</a> with the University itself, which agreed to pay her $27,500 in attorney’s fees. The University expressed public support for Frank for the first time, voicing dissatisfaction with Ivy and TI’s all-male policies.
+</p>
+
+<p class="pull-quote" style="margin-bottom:10px"><span class="highlight-line">______</span><br>“Princeton’s educational purposes will be served best when the Prospect Street clubs also are fully accessible to women.”</p>
+<p class="quote-attribution">University counsel Thomas Wright ’62
+</p>
+
+<p>
+Shifting alliances spelled trouble for Miller’s 1987 recommendation, which would have otherwise been a full victory for TI and Ivy. University counsel <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=TownTopics19870304-01.2.15&srpos=2&e=------198-en-20--1--txt-txIN-university+exception------">filed</a> an exception to Pamela Poff, the director of the Division on Civil Rights, urging her to disregard Miller’s recommendation and instead follow her May 1985 ruling that the clubs and the University were bound by “historical,” not just superficial, ties.
+</p>
+<p>
+Poff agreed, <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=TownTopics19870527-01.2.4&srpos=39&e=------198-en-20--21--txt-txIN-Ivy+coed------">ruling</a> in May 1987 that the law required Ivy and TI to admit female members. 
+</p>
+<p>
+“This institution made a commitment to coeducation in 1969. Princeton’s educational purposes will be served best when the Prospect Street clubs also are fully accessible to women,” the University’s general counsel, Thomas Wright ’62, told the ‘Prince’ at the time, supporting Poff’s ruling.
+</p>
+<p>
+Looking back on her eventual alliance with Nassau Hall, Frank expressed gratitude. She recalled a decades-long partnership grounded in symbolic moments.
+</p>
+<p>
+“One year, I think ’83, I was at Reunions and the P-Rade ended at a field but we walked past the clubs. And when I walked past, Bill Bowen — who was president at the time — asked me to wait for him to walk back,” she remembered. “He walked back to campus with me. Princeton’s a very symbolic place, and he was making a statement by doing that.”
+</p>
+<p>
+Even the University’s assistance, however, couldn’t stem the flood of bad news for Frank. To sever its ties with Princeton, TI withdrew from Meal Exchange and the intramural sports program in summer 1987. By September, Poff was forced to delay her order, when TI and Ivy <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19870910-01.2.2&srpos=52&e=------198-en-20--41--txt-txIN-Ivy+coed------">appealed</a>. And in February 1988, Ivy and TI members <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=TownTopics19880217-01.2.15&srpos=2&e=-------en-20--1--txt-txIN-male+eating+clubs------">voted</a> once again to remain all-male. 
+</p>
+<p>
+The final blow came in October 1988, when Frank learned that a ruling in her favor had been <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19881005-01.2.2&srpos=58&e=------198-en-20--41--txt-txIN-Ivy+coed------">reversed</a>. She would need to start a new trial in a lower court.
+</p>
+<p>
+With no time to waste mourning the setback, Frank regrouped and filed a petition with the New Jersey Supreme Court. By now, she had graduated from law school and was acting as her own counsel alongside ACLU representative Nadine Taub.
+</p>
+<p>
+“You can’t be emotional and be lawyering,” Frank said. “We had kind of figured out how to share duties and differentiate the two roles. In this case most of it was a political, legal question to me. But she did the more personal things so that when I was lawyering, I could be a lawyer and not look at it from a personal perspective.”
+</p>
+<p>
+As Frank faced yet another uphill climb, campus activists were growing in number and conviction. More and more students were ready to stand against all-male clubs.
+</p>
+</div>
+
+<div class="item">
+  <h1> “An Outrage and a Scandal”</h1>
+  <p>
+On April 23, 1987, around 300 students <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19870424-01.2.3&srpos=1&e=------198-en-20-Princetonian-1--txt-txIN-take+back+the+night------">gathered</a> on campus for the University’s first-ever “Take Back the Night” march. The event joined a decade-old nationwide movement intended to raise awareness about sexual violence and amplify the voices of survivors. Participants stopped at nine pre-planned locations across campus — each the site of an alleged sexual assault or instance of harassment — and spoke to the crowd about their experiences.
+</p>
+<p>
+“Friends of mine were carrying candles and people were walking around the campus and stopping at places where events had occurred where women had felt unsafe,” Brewer said. “It really resonated with me because I hadn't had that experience. And it was the first time in a public way that people were talking about this.”
+</p>
+<p>
+After the final speech, which took place at 1879 Arch, a portion of the crowd moved to Prospect Avenue, where they encountered intoxicated male students shouting obscenities.
+</p>
+
+<figure class="img-normal">
+  <img src="take_back_the_night.png" style="width:100%">
+  <figcaption>The Daily Princetonian, April 24th, 1987</figcaption>
+  </figure>
+
+<p>
+“There were guys at Cottage Club standing outside the club when the march went up and down Prospect Avenue,” Denworth said. “And they were mooning people, and throwing beer bottles. And I just [thought], who raised these people? So you’re saying you’re <em>for</em> sexual assault?”
+</p>
+<p>
+One student, Theodore Green ’89, was <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19870427-01.2.4&srpos=3&e=------198-en-20--1--txt-txIN-%22Theodore+green%22--51-1000---">videotaped</a> in front of Dial Lodge — a sign-in club that eventually merged with Cannon — pulling down his pants, throwing beers at marchers, and shouting, “The Women’s Center sucks. They can suck my d---.”
+</p>
+<p>
+Green was ultimately <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19870508-01.2.6&srpos=5&e=------198-en-20--1--txt-txIN-%22Theodore+green%22------">fined</a>, placed on University probation, and expelled from Cottage for his actions at the march.
+</p>
+<p>
+“They were drunk,” Denworth added. “They were immature. One of the things I recognize now is how young we all were. And so I do think that people behave in ways that they regret later in life.”
+</p>
+<p>
+But a few nights after the march, an incident exposed the darker side of resistance to gender equality. Thirty-five men <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19870427-01.2.4&srpos=3&e=------198-en-20--1--txt-txIN-%22Theodore+green%22--51-1000---">gathered</a> in front of Spelman Hall at approximately 10:30 p.m and chanted, “We can rape anyone we want.”
+</p>
+<p>
+The Spelman men remained unidentified.
+</p>
+</div>
+
+<div class="section-break"><h1>*</h1></div>
+
+<div class="item">
+ <p>
+To many, the “Take Back the Night” march signaled a larger shift in campus culture. Despite vestiges of its all-male past, such as urinals in female bathrooms, the University was taking steps toward change.
+</p>
+<p>
+Even stereotypes about campus activists — “a handful of angry, hairy-legged feminists” — were beginning to fade away, said Weiner, the founder of the Coalition for Coeducated Eating Clubs.
+</p>
+<p>
+“I think that groups like mine were able to sort of change the narrative and point to this as more of a systemic problem,” she explained.
+</p>
+<p>
+“Once we were able to reframe it as that,” she said, “and sort of broaden it out and bring into the movement professors, administrators, alums, former members of the clubs — who were all sort of saying that it’s time to make this change — then I think that’s when the perception shifted.”
+</p>
+<p>
+Ivy and TI faced both internal and external pressures to join Cottage in accepting women, she explained. Activist organizers made pins reading “Ivy, TI, Go Coed” and distributed them across campus.
+</p>
+<p>
+“If you were in TI [or] Ivy and you walked into your classroom and you saw your professor with a button that said that this institution that you belong to is doing something deleterious and harmful to your classmates, I think that has to change the way that you feel,” Weiner said.
+</p>
+<p>
+At Whig-Clio, a public <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19891122-01.2.12.2&srpos=3&e=------198-en-20-Princetonian-1-byDA.rev-txt-txIN-whig+clio------">debate</a> revealed just how much campus attitudes had shifted.
+</p>
+<p>
+According to Weiner, “The guy who was the president of TI stood up in front of hundreds of people and said, ‘Well, like I’m really sorry, but membership has its privileges’ — which was a slogan of American Express, first of all — and people just hissed at him.”
+</p>
+<p>
+“You’re telling me, ‘I don’t belong here?’ Because I’m pretty sure I do,” she added.
+</p>
+</div>
+
+
+
+<div class="item">
+<figure class="img-normal">
+    <img style="width: 100%"" src="chants_slogans.png">
+<figcaption>The Daily Princetonian, November 21st, 1985</figcaption>
+</figure>
+
+  <p>
+In January of 1989, students protested outside Ivy and TI as the clubs proceeded with all-male spring bicker. Fifty students, both male and female, gathered on Prospect Ave, chanting and holding up signs. The ‘Prince’ <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19890130-01.2.2&srpos=46&e=------198-en-20--41--txt-txIN-Ivy+coed------">reported</a>:
+</p>
+<p style="margin-left: 10%; margin-right: 10%; font-style:italic">
+Calls and echoes throughout the protest, chants like “All-male bicker isn't right — think about it hard tonight,” reverberated on both sides of Prospect Avenue.
+</p>
+<p>
+
+<p>
+Two months later, Ivy’s undergraduate members held a <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19890303-01.2.6&srpos=29&e=------198-en-20--21--txt-txIN-Ivy+coed------">vote</a> on whether to accept women. They split down the middle: 42 in favor, 42 opposed. The graduate board announced it would take no action until a majority of members voted to accept women for two consecutive years.
+</p>
+<p>
+In 1990, the Coalition for Coeducated Eating Clubs held another demonstration, this time with campus sponsorships: the Undergraduate Student Government (USG), the Office of the Dean of Students, and the Women’s Center. Advertised in the ‘Prince,’ the event <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19900205-01.2.13.1&srpos=1&e=------199-en-20-Princetonian-1-byDA-txt-txIN-february+1990+ivy+tiger------">would</a> feature two class presidents, the USG president, then-head of Mathey College Barrie Royce, professors of the History, English, and Classics departments, Sally Frank, and “live music.”
+</p>
+<p>
+One speaker, English professor Thomas Keenan, <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19900124-01.2.14&srpos=2&e=------199-en-20-Princetonian-1-byDA-txt-txIN-ivy+tiger+vote------">told</a> the ‘Prince’ the all-male eating clubs were “an outrage and a scandal.”
+</p>
+<figure class="img-normal-mobile">
+    <img style="width: 100%" src="protest_mobile.png">
+</figure>
+</div>
+
+<figure>
+    <img class="full-width-img" style="opacity: 0.8" src="protest.png">
+<figcaption>The Daily Princetonian, February 7th, 1990</figcaption>
+</figure>
+<div class="item">
+<p>
+In September 1989, Frank got word of a big win: the N.J. Supreme Court had <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19890914-01.2.15&srpos=71&e=------198-en-20--61--txt-txIN-Ivy+coed------">agreed</a> to hear her case. And a few months later, the on-campus movement saw a victory of its own.
+</p>
+<p>
+On February 13, 1990, Ivy <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19900214-01.2.2&srpos=4&e=------199-en-20-Princetonian-1-byDA-txt-txIN-ivy+tiger+vote------">voted</a> to accept women. A week later, TI members voted <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19900220-01.2.5&srpos=5&e=------199-en-20-Princetonian-1-byDA-txt-txIN-ivy+tiger+vote------">the same way</a>. These preliminary votes, however, were not binding — at least, not yet. According to both clubs’ graduate boards, admitting women would require another year of a majority vote.
+</p>
+<p>
+But before the next school year could begin, Frank finally got the answer she had first sought a decade prior. On July 3, 1990, the N.J. Supreme Court ruled that Ivy and TI would have to open to women.
+</p>
+</div>
+
+<!-- SECTION
+3
+3
+3
+3
+3
+3
+3
+3
+3
+BEGINNING
+HERE -->
+
+<div style="background: darkslategrey; opacity:1; padding-top: 200px">
+    <h1 class="desktop" style="padding:0px; margin:0px; color:white; font-size:100px; line-height:100px">§3&ensp;The Last “First Women”</h1>
+    <h1 class="mobile" style="padding:0px; margin:0px; color:white; font-size:90px; line-height:90px">§3<br>The<br>Last<br>“First<br>Women”</h1>
+    </div>
+
+<div class="item">
+  <div class="first-par">
+    <p>
+Fall 1990 brought new undergraduates, falling temperatures, and, for the first time, female bickerees to Ivy. Thirty-eight women <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19900926-01.2.4&srpos=8&e=------199-en-20--1--txt-txIN-Ivy+Club----1990--">threw</a> their hats in the ring.
+</p>
+<p>
+Among the potential female members was Marilyn White Lawrence ’91, a senior intrigued by Ivy’s close-knit environment.
+</p>
+<p>
+“It was a really wonderful process,” she told the ‘Prince.’ “They were just really fruitful, wonderful, connective conversations without any time limit.”
+</p>
+<figure class="img-normal">
+  <img src="ivy.png" style="width:100%">
+  <figcaption>The Daily Princetonian, February 14th, 1990</figcaption>
+  </figure>
+<p>
+Benedict, who also bickered Ivy, agreed with Lawrence. “It was just a pleasant process,” she said. “It wasn’t a scary thing because it was in the fall and, worst case, my feelings would be hurt but I’d just go back to Charter, which I really enjoyed.”
+</p>
+<p>
+Both Lawrence and Benedict emphasized that they had not bickered as activists.
+</p>
+<p>
+“While I knew this was a historical event, I wasn’t bickering to make a big political point,” Lawrence said. “It felt like an opportunity that had opened up to me and other women, and that I wanted to seize on that opportunity while I could.”
+</p>
+<p>
+Though delighted by Ivy’s decision, neither Lawrence nor Benedict had expected to bicker there. As Benedict explained, “In the ’80s, it seemed like nothing really would change and institutions were institutions and they moved at a really glacial pace. It was kind of like, ‘The sky is blue, these clubs are all-male, that’s never going to change.’”
+</p>
+<p>
+But it wasn’t just the chance to bicker that surprised the women. Equally unexpected for Ivy’s new women members was the ease with which they assimilated into club life.
+</p>
+<p>
+“It was like I had my sorority friends, and I was sort of in a fraternity too,” Benedict said.
+</p>
+<p>
+They found that entering the club required adaptation on both sides.
+</p>
+<p>
+“If and when challenges arose, it was more because we were women entering into an all-male world and the membership was used to behaving in kind of all-male ways,” Lawrence said. “You had your smoking room, you had your billiards room.”
+</p>
+<p>
+She explained that though many of Ivy’s male members would take time to adjust, the women were “respectful of that and understanding of that.”
+</p>
+<p>
+“I remember being very empathic to their situation,” Lawrence said. “I grew up going to an all-girls high school, which I loved … so I could appreciate the benefits of being in a single-sex community.”
+</p>
+<p>
+“I understood why the men wouldn’t want to go coed, and I really do have to salute them for making it a pleasant process,” said Benedict, who also attended an all-girls’ school.
+</p>
+<p class="pull-quote" style="margin-bottom:10px"><span class="highlight-line">______</span><br>“It was like I had my sorority friends, and I was sort of in a fraternity too.”</p>
+<p class="quote-attribution">Vicky Benedict ’91
+</p>
+<p>
+In Benedict’s view, “There was no ugliness whatsoever.”
+</p>
+<p>
+“In fact,” she added, “I reached out to the undergraduate president of Ivy my senior year and told him at our 25th [reunion], ‘you really set the tone.’  … From the second bicker started everyone was very, very welcoming and very kind.”
+</p>
+<p>
+Lawrence, Benedict and their fellow female Ivy members did have a few practical concerns.
+</p>
+<p>
+For Lawrence, the most pressing challenge was dietary. Before joining Ivy, she was the artistic director of Expressions Dance Company and, as she put it, “used to eating like a vegetarian dancer.” But meals were a bit different at Ivy.
+</p>
+<p>
+“It was some sort of meat, potatoes and beans every night,” she chuckled. “So after a couple weeks of eating potatoes and beans, I was like, ‘Ok, I can’t. I’m going to starve.’ And I broke down and became omnivorous again.”
+</p>
+<p>
+Another concern pertained to the neckties that Ivy men typically received during club initiations. According to Lawrence, they “didn’t have the equivalent sartorial swag item for women.” Eager to adapt, the women designed an Ivy scarf, “a real symbolic moment” that Lawrence remembers to this day.
+</p>
+<p>
+But the most meaningful symbol resides in Ivy’s basement library, where 14 butterflies decorate a stained glass window alongside a small plaque.
+</p>
+<p>
+The butterflies represent the 14 original women of Ivy — serving as a permanent reminder of the progress they made towards equality, and of the final steps yet to come.
+</p>
+
+<p>
+Only TI, the final bastion of Princeton’s all-male past, remained. The members not only voted to continue the club’s all-male status, but also appealed the case all the way to the U.S. Supreme Court.
+</p>
+<p>
+But the death knell for their case came in January 1991, when the Supreme Court <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19910216-01.2.2&srpos=1&e=------199-en-20--1--txt-txIN-Ivy+Club----1991--">denied</a> TI’s petition and refused to reverse the N.J. Supreme Court’s decision. By 1991, Princeton’s last all-male eating club had fallen.
+</p>
+<figure class="img-normal-mobile">
+    <img style="width: 100%" src="ti_bicker_mobile.png">
+</figure>
+</div>
+</div>
+
+<figure>
+    <img class="full-width-img" style="opacity: 0.8" src="ti_bicker.png">
+<figcaption>The Daily Princetonian, February 4th, 1991</figcaption>
+</figure>
+
+<div class="item">
+  <h1>Fur Tops and Turkey Legs: Welcome to TI</h1>
+  <p>
+When roughly 50 women <a href="https://theprince.princeton.edu/princetonperiodicals/?a=d&d=Princetonian19910204-01.2.2&srpos=5&e=-------en-20-Princetonian-1--txt-txIN-bicker+t.i+1991------">bickered</a> TI in February 1991, they knew they were the last set of “first women” to bicker a Princeton eating club. They arrived on Feb. 4, eyes bright, ready to experience the “most fun” club on campus.
+</p>
+<p>
+At least, most of them did. One of the eventual members was a little late to the scene.
+</p>
+<p>
+Jessica Hope ’92 felt conflicted. On the one hand, many of her rowing teammates and friends — particularly from the lightweight men’s team — were already members of Tiger Inn, and she always felt “more comfortable at TI than at any other club.” But the lawsuit’s outcome made her uncomfortable.
+</p>
+<p>
+“Well, I’m not going to bicker there, because I don’t like that they’re being forced,” Hope recalled thinking. “If they don’t want women, I don’t want to be a part of making the club worse in their eyes.”
+</p>
+<p>
+Eventually, her friends’ insistence that she come to bicker so that they could take her, not “random other girls,” won out. Despite being a day late, Hope was accepted and joined a class of 27 new women members.
+</p>
+<p>
+From then on, Hope said, “It felt totally relaxed and normal.”
+</p>
+<p>
+A fellow junior, Margaret Deluca ’92, agreed. After spending the first semester of junior year partying with her boyfriend at TI — a boyfriend who she happened to have met at the club — she decided to bicker.
+</p>
+<p>
+“I loved it,” she told the ‘Prince.’
+</p>
+<p>
+Still, there were hurdles to overcome.
+</p>
+<p>
+Deluca recalled that the alumni were very “anti-women” at the time. “Some of my classmates went to a TI reunion around that time, and they told me how misogynistic and how angry they were about the lawsuit.”
+</p>
+<p>
+But sexism among the alumni hardly shocked the women. Far more of a concern were some of TI’s cherished traditions, which would have to be modified for the new coed membership.
+</p>
+
+<p class="pull-quote" style="margin-bottom:10px"><span class="highlight-line">______</span><br>“If they don’t want women, I don’t want to be a part of making the club worse in their eyes.”</p>
+<p class="quote-attribution">Jessica Hope ’92
+</p>
+
+<p>
+One of the most well-known traditions occurred at TI initiations, where new members were passed down the stairs, “totally naked except for their new TI tie.” 
+</p>
+<p>
+“People were aware that you’ve got all these men’s hands all over you, because there are no girls in that crowd, and they’re passing you down the stairs,” said Deluca. “They’re gonna touch places that may be bad. So that was the biggest issue we had.”
+</p>
+<p>
+Fortunately, the men were willing to adapt.
+</p>
+<p>
+“With us, we kept bras and underwear on,” said Hope. “It was actually the guys who said, ‘You know what? Why don’t you guys stay partly dressed?,’ and not the women needing to say, ‘We don’t feel comfortable with that.’ ”
+</p>
+<p>
+Naked initiations may have been the “biggest issue” for the women, but the men worried about a different tradition.
+</p>
+<p>
+Even during Frank’s time at Princeton, TI members raised concerns about what adding women would do to their most beloved ritual, “Trees and Trolls.” Prior to 1991, this event involved a face-off between TI members shorter than 6’0’’ — “Trolls” — and those taller than 6’0” — “Trees.”
+</p>
+<p>
+Those fears soon proved unfounded.
+</p>
+<p>
+Since the event coincided with Viking night, a dinner in which the members dressed up in furs and ate “giant turkey legs,” Deluca received the moniker “Peggy Fleming Viking” for her all-white fur outfit reminiscent of a famous figure skater.
+</p>
+<p>
+Hope received costume help and outfit advice. “Some of my guy friends went shopping for me — I had class or something — and they bought fur for me. They even had the idea that I could make like a little fur top or something.”
+</p>
+
+<p>
+Bedecked in their Viking furs, the women and the men gathered on Cannon Green. Since all the women would be grouped into “Trolls” under the normal classifications, the members decided that the tallest women should join the “Tree” side. Then, the wrestling began.
+</p>
+<p>
+Though Frank believed the “Trees and Trolls” spectacle might <a href="https://www.dailyprincetonian.com/article/2018/05/sally-frank-80-describes-the-tiger-inn-of-1979-a-club-she-sued-for-not-accepting-women">deter</a> women, the first class of TI women seemed to enjoy it.
+</p>
+<p>
+“It was fun and inclusive,” Hope said.
+</p>
+<p>
+“I was short so I could kind of skirt the edges, until I got knocked on my ass,” said Deluca. “I think three people ended up in casts after. It was very dangerous, and fun.”
+</p>
+<p>
+But more daunting than both the wrestling or alumni sexism? It was, like in Ivy, the food.
+</p>
+<p>
+“They had to change the food at TI because it was all meat and potatoes,” said Deluca. “I ate nothing but Lucky Charms for the entire time I was a member there because I’m like, ‘I don’t want to eat steak every night. I don’t even like steak!’”
+</p>
+<p>
+Despite the dubious diet, Deluca remembered her time at TI with nothing but fondness.
+</p>
+<p>
+“I actually have a recurring nightmare that I <em>stopped</em> going to TI. For some reason I stopped feeling comfortable there, and I hadn’t set foot in there all year or talked to any of my friends. That’s like a nightmare I have!” 
+</p>
+</div>
+
+
+<!-- EPILOGUE
+BEGINS
+HERE
+
+EPILOGUE
+BEGINS
+HERE -->
+
+<div style="background: rgb(40,40,40); opacity:1; padding-top: 200px">
+    <h1 class="desktop" style="padding:0px; margin:0px; color:white; font-size:100px; line-height:100px">§&ensp;Epilogue</h1>
+    <h1 class="mobile" style="padding:0px; margin:0px; color:white; font-size:90px; line-height:90px">§&ensp;Epilogue</h1>
+    </div>
+
+
+    <div class="item">
+      <div class="first-par">
+        <figure class="img-normal" style="margin-left:20%; margin-right:20%">
+  <img src="cartoon.png" style="width:100%">
+  <figcaption>The Daily Princetonian, February 6th, 1990</figcaption>
+  </figure>
+
+        <p>
+For Weiner, the challenge lay in getting the eating clubs to open their doors to women — and letting the rest, she said, unfold “organically.”
+</p>
+<p>
+“Let Ivy attract the kind of Princetonians, not just Princeton men, but the <em>Princetonians</em> that Ivy traditionally attracts. Let TI attract the people that TI traditionally attracts,” Weiner said.
+</p>
+<p>
+This method seems to have worked. While Sally Frank and other leading activists never won spots at Cottage, Ivy, or TI, the women who did often remarked that they did not closely follow the lawsuit, or appreciate the enormity of Frank’s effort, at the time. 
+</p>
+<p>
+“I felt like I had been raised as though women had every right that men did,” Hope told the ‘Prince.’ “And I never had felt discriminated against in any way. So it never occurred to me really to think that she had a point, to be honest. At that time in my life, I was like, ‘Oh, this woman’s being a big pain and interfering with Princeton’s traditions.’”
+</p>
+<p>
+Deluca, too, understood the appeal of all-male tradition, having attended an all-girls’ secondary school in her teenage years.
+</p>
+<p>
+“I kind of saw it as a holdover, a rational and reasonable holdover, from a period of time where the school was all-male,” she said. “It was like, ‘Well, if it’s going to be coed, then I’ll join,” but I wasn’t personally for it. It just was a different time.”
+</p>
+<p>
+“Like now I would be so beyond pissed off,” Deluca added, “as a working woman who’s like, ‘Equal pay for equal work!’ and all that. I just wasn't that person back then.”
+</p>
+<p>
+Hope also felt that she had changed since college, though she still questioned whether Frank was right to sue the clubs.
+</p>
+<p>
+“Now that I’m older,” she said, “I totally see what her point was and why she did what she did. I’m still not sure I support it. I think there would have been better ways to achieve that.”
+</p>
+<p>
+But Weiner defended Frank’s actions, arguing that women on campus should not have settled for incremental progress.
+</p>
+<p>
+“I think the position that she took probably <em>felt</em> very radical,” Weiner said. She explained that on campus, women were expected to be “grateful that you’re here.”
+</p>
+<p>
+“You’re getting half a loaf,” she added, “but at least you’re not getting nothing, or just crumbs anymore. You’re getting most of what Princeton has to offer.”
+</p>
+<p>
+She continued, “I think that people were able to evolve and say, ‘Anyone who’s here should be able to get everything that Princeton has to offer.’”
+</p>
+      </div>
+<p class="pull-quote" style="margin-bottom:10px"><span class="highlight-line">______</span><br>“The ‘Be slow. Don’t protest. Don’t disrupt things. We’ll get to it eventually’ is the ‘We’ll never get to it.”</p>
+<p class="quote-attribution">Sally Frank ’90
+</p>
+<p>
+  <p>
+One crucial question remained on the minds of many of these “first women” as they reflected on their experiences over thirty years ago: “Is Sally Frank bitter?”
+</p>
+<p>
+To this, she had one response: No.
+</p>
+<p>
+“I could separate the political issue from the person,” Frank said. “You can be a very good person and disagree with me on a problem, and on whether something is a problem or on how to solve the problem. That doesn’t mean you’re evil, that means we disagree on a political question.”
+</p>
+<p>
+She credits her amicable relationship with William Ford ’79 — the president of Ivy during her junior year and the only president of the three all-male clubs to let her attend bicker — with helping her make that distinction.
+</p>
+<p>
+“[He] treated it as a political issue,” she said. “He did not take it personally. It helped me not to generalize everybody as the opposition and everybody in the opposition as bad people … So I did not think that the members of the clubs were evil or bad people. They were perpetuating a bad policy.”
+</p>
+<p>
+To those who still challenge her decision to sue, Frank offered another succinct response. 
+</p>
+<p>
+“The ‘Be slow. Don’t protest. Don’t disrupt things. We’ll get to it eventually’ is the ‘We’ll never get to it,” she said.
+</p>
+</div>
+
+<div class="section-break"><h1>*</h1></div>
+
+<div class="item">
+  <p>
+As the years pass, the fight for gender equality in the eating clubs falls further into the recesses of Princeton’s institutional memory.
+</p>
+<p>
+Denworth spoke to the ‘Prince’ about a time when, as a senior at bicker, she met a sophomore bickeree who believed that Cottage had always been coed. Despite being just two years younger than Denworth, she had been in high school when the fight to open Cottage to women took place and had no knowledge of the legal and cultural struggle.
+</p>
+<p>
+“It told me that change can happen very quickly on a college campus,” Denworth said. “But also, it felt like we’d been fighting this fight, and then people [had already] forgotten how hard it was.”
+</p>
+<p>
+In a world where <a href=" https://www.dailyprincetonian.com/article/2018/05/twenty-years-of-female-leadership-on-prospect-avenue">nine</a> of the eleven eating club presidents were women in 2018 — and when a pandemic <a href="https://www.dailyprincetonian.com/article/2020/07/princeton-fall-announcement-social-distancing-sophomores-seniors-spring-schedule-change-testing">casts</a> the eating clubs’ future into doubt — Denworth’s reflections resonate strongly. 
+</p>
+<p>
+But the women have not forgotten their time in the eating clubs.
+</p>
+<p>
+Lawrence became a volunteer firefighter and the first female Assistant Chief of her fire department in Fire Island, Long Island. She credits the lessons she learned adapting to the all-male traditions of Ivy with her success in a historically all-male fire department.
+</p>
+<p>
+Her success required “finding a way to be true to myself as a woman,” she said, “and entering these traditionally male-dominated spaces in a way where I can hold my own while understanding that I can’t revolutionize that space overnight.”
+</p>
+<p>
+Deluca is now an attorney, helping clients with estate and trust administration. 
+</p>
+<p>
+“I have to read the room every time I walk in to meet a new client and figure out who they’re looking to talk to,” she said. “Are they looking to talk to Greenwich Academy Meg? … The daughter of a guy who owns a construction company Meg? … Princeton Meg? Who are they gonna identify with?”
+</p>
+<p>
+“Sometimes they identify with ‘the woman who plays well with men’ Meg and who could fit into something that was all-male,” Deluca said.
+</p>
+<p>
+For Weiner, her time as an activist on campus shaped both her continued advocacy and her eventual career as a writer. She looks back on those days with pride.
+</p>
+<p>
+“I remember when we were graduating,” Weiner said, “and the yearbook sent out a survey [that] asked ‘What is the hardest thing that you did at Princeton?’”
+</p>
+<p>
+Weiner smiled. “My answer was, ‘I tried to change it.’” &#x25FC;
+</p>
+</div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
